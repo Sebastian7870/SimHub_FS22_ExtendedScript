@@ -45,8 +45,7 @@ For example, you can assign or return a telemetry value (such as _money_) to a t
 let value = NewRawData()?.Telemetry["money"] || 0;
 return value;
 ````
-*(Instruction image: [SimHub_Instruction.png](https://github.com/Sebastian7870/SimHub_FS22_ExtendedScript/blob/main/SimHub_Instruction.png))*
-
+![Screenshot showing SimHub Instructions](https://github.com/Sebastian7870/SimHub_FS22_ExtendedScript/blob/main/SimHub_Instructions.png)
 
 <br>
 
