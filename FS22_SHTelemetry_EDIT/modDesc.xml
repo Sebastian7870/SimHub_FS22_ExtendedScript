@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="68">
+
+   <author>wotever, Sebastian7870</author>
+   	
+	<version>1.2.0.0</version>
+   
+    <title>
+		<en>Farming Simulator Telemetry (EDIT)</en>
+		<de>Farming Simulator Telemetrie (EDIT)</de>
+    </title>
+	
+    <description>
+		<en>
+		<![CDATA[This modification sends telemetry data to a local TCP server.
+        It works with the SimHub application.
+        EDIT: Added more parameters.
+		V.1.2.0.0 (Sebastian7870)
+			-fixed bugs]]>
+		</en>	
+		<de>
+		<![CDATA[Diese Modifikation überträgt Telemetriedaten an einen lokalen TCP-Server.
+        Es funktioniert mit der SimHub Anwendung.
+        EDIT: Mehr Parameter hinzugefügt.
+		V.1.2.0.0 (Sebastian7870)
+			-Bugs gefixt]]>
+		</de>
+ 	</description>	
+    <multiplayer supported="true"/>
+	<iconFilename>icon.dds</iconFilename>
+	
+	<extraSourceFiles>
+		<sourceFile filename="SHTelemetry.lua"/>
+    </extraSourceFiles>
+	
+</modDesc>
