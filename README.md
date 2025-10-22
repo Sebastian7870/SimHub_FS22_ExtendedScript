@@ -129,6 +129,7 @@ Please note that all of this information is available in SimHub under the **"raw
 | implement_index2_tipSideName                     | String   | Tip side of implement 2                                      | Base Game    |
 | selectedObject_index                             | Number  | Index of selected implement                                  | Base Game    |
 | selectedObject_isFrontloader                     | Bool     | Is selected implement a frontloader                           | Base Game    |
+| selectedObject_damageValue                       | Float     | Damage Value from 0 to 100                                    | Base Game    |
 | implement_selected_name                           | String   | Name of selected implement                                     | Base Game    |
 | implement_selected_isLowered                      | Bool     | Implement lowered                                              | Base Game    |
 | implement_selected_isUnfolded                     | Bool     | Implement unfolded                                             | Base Game    |

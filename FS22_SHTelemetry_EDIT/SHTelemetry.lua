@@ -871,6 +871,13 @@ function SHTelemetry:addSelectionInformation(vehicle)
     self:addBoolToTelemetry("selectedObject_isFrontloader", isFrontloader)
 
     local selectedObject = vehicle:getSelectedVehicle()
+    local damageAmount = 0
+    if selectedObject.getDamageAmount ~= nil then
+        damageAmount = selectedObject:getDamageAmount()
+    end
+
+    self:addFloatToTelemetry("selectedObject_damageValue", damageAmount)
+
     local isLowered = selectedObject.getIsLowered ~= nil and selectedObject:getIsLowered()
     local isFoldable = selectedObject.getIsFoldable ~= nil and selectedObject:getIsFoldable()
     local isUnfolded, unfoldingState = false, 0
